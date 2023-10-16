@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    margin-top: 25px;
+
+}
+body{
+    background: rgb(235, 210, 167)
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    padding-top: 15rem;
+}
+.card-body{
+    background-color: white;
+    padding: 25px;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+.card-body h1{
+    padding: 10px;
+    font-size: 55px;
+}
+
+.card-btn button{
+    color: black;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    
+    
+}
+#decrement{
+    background-color: aquamarine;
+    border-radius: 5px;
+
+}
+#decrement:hover{
+    background-color: coral;
+
+}
+#increament{
+    background-color: brown;
+    border-radius: 5px;
+}
+#increament:hover{
+    background-color: greenyellow;
+}
+#reset{
+    background-color: cornflowerblue;
+    border-radius: 5px;
+}
+#reset:hover{
+    background-color: hotpink;
+}
